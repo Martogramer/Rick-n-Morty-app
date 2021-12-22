@@ -32,7 +32,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="bg-secondary">
       <Navbar brand="Rick-and-Morty-App"/>
       <div className="container mt-5">
         <Pagination prev={info.prev} next={info.next} onPrev={onPrev} onNext={onNext}/>
